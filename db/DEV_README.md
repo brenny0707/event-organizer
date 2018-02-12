@@ -19,8 +19,11 @@
   - [ ] **Render all current tables and seats**
   - [ ] **Attendee (add/delete/edit) form when clicked**
   - [ ] **Tables can be added/deleted/dragged**
+- Events
+  - [ ] **Contains a floorplan**
+  - [ ] Implement events with multiple floorplans/rooms
 - Calendar
-  - [ ] Calendar for user
+  - [ ] Calendar to show organizer their upcoming events
 
   #### Fleshing out Invite vs Attendee
   TBD after mailer invite is created
