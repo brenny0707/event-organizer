@@ -1,6 +1,6 @@
 # Dynamic Events
 
-### Application to dynamically add RSVPs and arrange seat oragnizations
+#### Application to dynamically add attendees and arrange seat organizations
 
 ## Checklist (**MVPs in bold**)
 
@@ -10,6 +10,7 @@
   - [ ] **Add Attendees**
   - [ ] **Delete Attendees**
   - [ ] **Edit Attendee information**
+  - [ ] **Dynamic Information settings (PostgreSQL hstore?)**
   - [ ] Attendees can add/delete/edit their RSVP from mailer form
 - Tables/seats
   - [ ] **Add seats and tables**
