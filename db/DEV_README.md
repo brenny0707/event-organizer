@@ -6,6 +6,9 @@
 
 - Organizers
   - The "users" of the app (app is operation-focused)
+  - [ ] **Register as Organizer**
+  - [ ] **Auth in place**
+  - [ ] **Profile shows all events user is organizing**
 - Attendees
   - [ ] **Add Attendees**
   - [ ] **Delete Attendees**
