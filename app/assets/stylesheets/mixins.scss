@@ -1,4 +1,5 @@
 @mixin header-spacing {
   padding: 5px;
+  color: white;
   @content
 }
