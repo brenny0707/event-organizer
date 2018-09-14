@@ -1,3 +1,5 @@
+@import "mixins.scss";
+
 .home-div {
   height: 353px;
   background: image-url("banquet-rows.jpg");
@@ -6,4 +8,15 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+.home-div > h1 {
+  @include header-spacing{
+    font-size: 48px;
+  }
+}
+.home-div > h2 {
+  @include header-spacing{
+    font-size: 32px;
+  }
 }
