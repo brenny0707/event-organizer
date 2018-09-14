@@ -10,12 +10,28 @@
   flex-direction: column;
 }
 
-.home-div > h1 {
+.home-text-div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  animation: pulse 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.home-text-div > h1 {
   @include header-spacing{
     font-size: 48px;
   }
 }
-.home-div > h2 {
+.home-text-div > h2 {
   @include header-spacing{
     font-size: 32px;
   }
