@@ -1,5 +1,7 @@
 @mixin header-spacing {
   padding: 5px;
   color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
   @content
 }
