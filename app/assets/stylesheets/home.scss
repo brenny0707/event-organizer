@@ -3,4 +3,7 @@
   background: image-url("banquet-rows.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
