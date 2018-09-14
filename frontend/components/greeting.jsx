@@ -8,7 +8,7 @@ class Greeting extends React.Component {
 
   render() {
     return(
-      <div>Greetings from Greeting!</div>
+      <div className="greeting-div">Greetings from Greeting!</div>
     );
   }
 }

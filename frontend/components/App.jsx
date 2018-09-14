@@ -6,7 +6,7 @@ import Home from './home';
 
 const App = () => {
   return (
-    <div>
+    <div className="app-div">
       <GreetingContainer/>
       <Route exact path="/" component={Home} />
     </div>
