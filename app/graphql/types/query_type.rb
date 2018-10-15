@@ -9,4 +9,5 @@ Types::QueryType = GraphQL::ObjectType.define do
       Organizer.all
     }
   end
+  field :organizerProfile, function: Resolvers::OrganizerProfile.new
 end
