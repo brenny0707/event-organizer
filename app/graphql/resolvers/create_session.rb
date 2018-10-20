@@ -1,6 +1,3 @@
-require_relative "../../controllers/application_controller.rb"
-
-
 class Resolvers::CreateSession < GraphQL::Function
   # arguments passed as "args"
   argument :email, !types.String
