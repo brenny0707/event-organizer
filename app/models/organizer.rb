@@ -34,7 +34,7 @@ class Organizer < ApplicationRecord
   end
 
   def reset_session_token!
-    self.session_token = User.generate_session_token
+    self.session_token = Organizer.generate_session_token
     self.save
     self.session_token
   end
