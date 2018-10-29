@@ -11,18 +11,13 @@ class CreateSession extends React.Component {
     "email": '',
     "password": '',
     }
-  this.handleTest = this.handleTest.bind(this);
   this.update = this.update.bind(this);
   }
-
-handleTest(data) {
-  console.log(data);
-  return this.setState({"curOrganizer": data})
-}
 
 update(prop) {
   return (e) => {
     e.preventDefault();
+    e.stopPropagation();
     return this.setState({ [prop]: e.target.value })
   }
 }
@@ -46,7 +41,7 @@ update(prop) {
         <Mutation 
         mutation={CREATE_SESSION} 
         variables={{ email: this.state.email, password: this.state.password }}
-        onCompleted={data => this.handleTest(data)}>
+        onCompleted={data => this.props.handleTest(data)}>
           {(createSession) => (
             <button onClick={createSession}>
               TEST
