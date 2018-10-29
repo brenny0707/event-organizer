@@ -25,7 +25,6 @@ class Greeting extends React.Component {
     <p>Please sign in!</p>
     return(
       <div className="greeting-div">
-        <p>Greetings from Greeting!</p>
         {greeting}
         <CreateSession handleTest={this.handleTest}/>
       </div>
