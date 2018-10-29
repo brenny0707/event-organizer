@@ -38,7 +38,7 @@ update(prop) {
           className="greeting-pw-input"
           value={this.state.password}
           onChange={this.update("password")}
-          type="text"
+          type="password"
           placeholder="Password"
         />
         <Mutation mutation={CREATE_SESSION} variables={{ email: this.state.email, password: this.state.password }}>

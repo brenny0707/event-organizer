@@ -1,1 +1,1 @@
-json.extract!(organizer, :id, :fname, :email)
+json.extract!(organizer, :id, :fname, :lname, :email)
