@@ -6,11 +6,7 @@ import App from './App';
 import { ApolloProvider } from "react-apollo";
 import ApolloClient from "apollo-boost";
 
-const client = new ApolloClient({
-  clientState: {
-    
-  }
-});
+const client = new ApolloClient();
 
 const Root = ({store}) => {
   return (
